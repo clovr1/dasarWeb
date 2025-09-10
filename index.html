@@ -1,77 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Grid</title>
-<style>
-    body,
-    html {
-        margin: 0;
-        padding: 0;
-        font-size: 20px;
-        font-family: Arial;
-        color: white;
-        text-transform: uppercase;
-        text-align: center;
-    }
-    .container {
-        display: grid;
-        grid-template-areas: header header header;
-        width: 600px;
-        margin: 50px auto;
-        border: 5px solid #333;
-        box-sizing: border-box;
-        padding: 5px;
-        grid-template-columns: 1fr 1.5fr;
-        grid-template-rows: 1fr 1fr 1.3fr;
-
-    }
-
-    header {
-        grid-area: header;
-        background: #B063D8;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    aside {
-        grid-area: aside;
-        background-color: #2F93FF;
-        padding: 60px 0;
-    }
-
-    nav {
-        grid-area: nav;
-        background-color: #E45765;
-        padding: 60px 0;
-    }
-
-    main {
-        grid-area: main;
-        background-color: #E0AA77;
-        box-sizing: border-box;
-        flex: 1.5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer {
-        grid-area: footer;
-        background-color: #666;
-        padding: 20px 0;
-    }
-</style>
+    <title>Latihan Flexbox</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
-    <div class="container">
-        <header><Header></Header>
-        <aside>Aside</aside>
-        <nav>Nav</nav>
-        <main>Main</main>
-        <footer>Footer</footer>
+<div class="container-satu">
+    <div class="kolom-utama">
+        <h2>Judul Artikel</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p>nec ullamco laboris nisi ut aliquip ex ea com</p>
     </div>
+
+    <div class="sidebar-satu">
+        <h3>Sidebar Satu</h3>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+    </div>
+
+    <div class="sidebar-dua">
+        <h3>Sidebar Dua</h3>
+        <p>Duis ex molilit tempor</p>
+    </div>
+</div>
 </body>
 </html>
-            
-    
